@@ -1,0 +1,106 @@
+body {
+    background-color: #0e0f13 !important;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important;
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    /* display: flex; */
+    justify-content: space-between;
+    height: 40px;
+    width: 100vw;
+    background-color: rgb(78, 74, 74);
+    opacity: .9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+}
+.left {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    
+}
+
+.right {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    width: 250px;
+}
+ul li {
+    font-size: 25px;
+    color: rgb(249, 249, 254);
+}
+
+.bell,
+.messenger{
+    font-size: 25px;
+    color: rgb(249, 249, 254);
+}
+
+.facebook {
+    color: #4169A1;
+    font-size: 35px;
+    
+}
+
+.search {
+    width: 177px;
+    height: 25px;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    margin-top: 5px;
+}
+
+.image {
+    width: 38Px;
+    height: 38px;
+    border-radius: 50%;
+}
+
+.friends {
+    margin-top: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card-body {
+    background-color: #373738
+}
+
+.line {
+    background-color: white;
+    height: 1.2px;
+    margin-bottom: 10px;
+
+}
